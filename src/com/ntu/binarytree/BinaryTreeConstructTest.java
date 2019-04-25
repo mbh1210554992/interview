@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.binarytree;
 
 import java.util.Arrays;
 
