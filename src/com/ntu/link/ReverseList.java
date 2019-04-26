@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.link;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -53,9 +53,10 @@ public class ReverseList {
 	 */
 	public static void printLinkReverse(LinkNode headNode){
 		Stack<LinkNode> stack=new Stack<>();
-		while(headNode!=null&&headNode.next!=null){
-			stack.push(headNode.next);
-			headNode=headNode.next;
+		LinkNode p=headNode;
+		while(p!=null&&p.next!=null){
+			stack.push(p.next);
+			p=p.next;
 		}
 		while(!stack.isEmpty()){
 			
