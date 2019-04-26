@@ -7,7 +7,7 @@ package com.ntu.offer;
  */
 public class DuplicateTest {
 	public static void main(String[] args) {
-		int[] a={1,3,0,2,0,0};
+		int[] a={1,3,0,2,2};
 		System.out.println(duplicate01(a));
 		
 	}
@@ -21,13 +21,13 @@ public class DuplicateTest {
 		if(array==null||array.length<=0){
 			return false;
 		}
-		for(int i=0;i<array.length-1;i++){
+		for(int i=0;i<array.length;i++){
 			//判断是否有0-n-1之外的数
 			if(array[i]<0||array[i]>array.length-1){
 				return false;
 			}
 		}
-		for(int i=0;i<array.length-1;i++){
+		for(int i=0;i<array.length;i++){
 			while(array[i]!=i){
 				if(array[i]==array[array[i]]){
 					System.out.println("找到一个重复的数："+array[i]);
