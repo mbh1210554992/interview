@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.array;
 
 import java.util.LinkedList;
 import java.util.Queue;

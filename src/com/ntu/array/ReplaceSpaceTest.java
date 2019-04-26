@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.array;
 /**
  * 将字符串中的空格替换为%20
  * @author Lenovo

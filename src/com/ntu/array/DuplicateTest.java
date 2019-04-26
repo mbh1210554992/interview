@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.array;
 /**
  * 找出数组中重复的数
  * 在一个长度为n的数组中，所有数字都在0-n-1范围内。找出数组中任意一个重复的数

@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.array;
 /**
  * 斐波那契数列
  * 利用递归来计算的时候，会出现很多重复的计算，影响效率

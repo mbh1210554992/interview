@@ -1,4 +1,4 @@
-package com.ntu.offer;
+package com.ntu.array;
 /**
  * 旋转数组的最小数字
  * 把一个数组最开始的几个元素搬到数组末尾，称之为数组的旋转
