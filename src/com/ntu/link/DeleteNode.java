@@ -6,17 +6,7 @@ package com.ntu.link;
  * @author Lenovo
  *
  */
-class LinkedNode{
-	int data;
-	LinkedNode next;
-	public LinkedNode(int data){
-		this.data=data;
-		this.next=null;
-	}
-	public LinkedNode(){
-		
-	}
-}
+
 
 public class DeleteNode {
 	/**
@@ -40,7 +30,7 @@ public class DeleteNode {
 		}else if(headNode.next==deleteNode){ //链表中只有一个节点
 			headNode.next=null;
 		}else {//要删除的节点为尾节点
-			while(headNode.next!=null){
+			while(headNode.next.next!=null){
 				headNode=headNode.next;
 			}
 			headNode.next=null;
@@ -58,7 +48,7 @@ public class DeleteNode {
 		two.next=three;
 		three.next=four;
 		LinkedNode p=headNode;
-		delete(headNode, three);
+		delete(headNode, four);
 		while(p.next!=null){
 			System.out.print(p.next.data+" ");
 			p=p.next;
