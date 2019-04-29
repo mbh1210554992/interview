@@ -84,13 +84,4 @@ public class BinaryTreeConstructTest {
 				
 }
 
-/**
- * 二叉树结点
- * @author Lenovo
- *
- */
-class BinaryTreeNode{
-	int data;
-	BinaryTreeNode leftNode;
-	BinaryTreeNode rightNode;
-}
+
